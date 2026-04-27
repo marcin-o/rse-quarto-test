@@ -13,3 +13,6 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - uses: quarto-dev/quarto-actions/render@v2
 
+      - uses: actions/uplaod-artifact@v7
+        with:
+          path: ./project.html
